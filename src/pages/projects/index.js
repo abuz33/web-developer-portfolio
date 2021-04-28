@@ -8,8 +8,6 @@ const Projects = ({ data }) => {
   const projects = data.projects.nodes
   const contact = data.contact.siteMetadata.contact
 
-  console.log(projects)
-
   return (
     <Layout>
       <div className={styles.portfolio}>
